@@ -28,6 +28,7 @@ impl Default for MatrixConfiguration {
             height: 0,
             target_fps: 0.0,
             serpentine: false,
+            #[cfg(not(target_arch = "aarch64"))]
             magnification: 0.0,
         }
     }
