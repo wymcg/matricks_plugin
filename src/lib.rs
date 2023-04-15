@@ -34,7 +34,7 @@ impl Default for MatrixConfiguration {
 }
 
 /// Update retrieved from the plugin every call to the update function
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Clone)]
 pub struct PluginUpdate {
     /// State of each LED in the matrix, as a two-dimensional matrix of BGRA values
     pub state: Vec<Vec<[u8; 4]>>,
