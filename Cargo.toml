@@ -2,6 +2,12 @@
 name = "matricks_plugin"
 version = "0.1.0"
 edition = "2021"
+authors = ["Will McGloughlin <willem.mcg@gmail.com>"]
+license = "MIT"
+description = "A helper crate for Matricks plugin development in Rust"
+readme = "README.md"
+homepage = "https://github.com/wymcg/matricks"
+repository = "https://github.com/wymcg/matricks_plugin"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
