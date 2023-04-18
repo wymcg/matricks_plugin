@@ -18,6 +18,9 @@ pub struct MatrixConfiguration {
 
     /// Magnification of the simulated matrix
     pub magnification: f32,
+
+    /// Brightness of the LEDs, on a scale from 0-255
+    pub brightness: u8,
 }
 
 impl Default for MatrixConfiguration {
@@ -28,6 +31,7 @@ impl Default for MatrixConfiguration {
             target_fps: 0.0,
             serpentine: false,
             magnification: 0.0,
+            brightness: 0,
         }
     }
 }
